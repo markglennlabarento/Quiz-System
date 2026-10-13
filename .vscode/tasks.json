@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Quiz System",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\main.cpp",
+                "${workspaceFolder}\\Menu.cpp",
+                "${workspaceFolder}\\Quiz.cpp",
+                "${workspaceFolder}\\Question.cpp",
+                "${workspaceFolder}\\Student.cpp",
+                "-o",
+                "${workspaceFolder}\\quiz-system.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds all Quiz System source files for debugging."
+        }
+    ],
+    "version": "2.0.0"
+}
